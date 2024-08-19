@@ -6,7 +6,7 @@ from transformers import pipeline
 st.set_page_config(
     page_title="Llama Prompt Guard",
     page_icon=":llama:",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="auto",
 )
 with st.sidebar:
   st.title("Llama Prompt Guard")
